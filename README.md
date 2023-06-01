@@ -41,7 +41,7 @@
     ```
 - Заполнить БД данными:
     ```bash
-    python manage.py loaddata > credit_app_db_dump.json
+    python manage.py loaddata credit_app_db_dump.json
     ```
 - Запустить проект и перейти по ссылке в терминале:
     ```bash
