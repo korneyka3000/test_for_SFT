@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Начальная страница</title>
+</head>
+<body>
+<form method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button>send</button>
+</form>
+{% if producers_id %}
+    <h3>Producer ids of products by contract:</h3>
+    {% for id in producers_id %}
+        <p>{{ forloop.counter }}. id {{ id }}</p>
+    {% endfor %}
+{% elif error %}
+    <p>{{ error }}</p>
+{% endif %}
+</body>
+</html>

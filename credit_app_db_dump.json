@@ -1,0 +1,242 @@
+[
+  {
+    "model": "credit_app.creditrequest",
+    "pk": 1,
+    "fields": {
+      "created_at": "2023-06-01T20:53:54.514Z",
+      "contract": 1
+    }
+  },
+  {
+    "model": "credit_app.creditrequest",
+    "pk": 2,
+    "fields": {
+      "created_at": "2023-06-01T20:53:54.520Z",
+      "contract": 2
+    }
+  },
+  {
+    "model": "credit_app.contract",
+    "pk": 1,
+    "fields": {
+      "created_at": "2023-06-01T20:52:07.607Z",
+      "number": "100"
+    }
+  },
+  {
+    "model": "credit_app.contract",
+    "pk": 2,
+    "fields": {
+      "created_at": "2023-06-01T20:52:07.611Z",
+      "number": "200"
+    }
+  },
+  {
+    "model": "credit_app.product",
+    "pk": 1,
+    "fields": {
+      "created_at": "2023-06-01T20:58:53.438Z",
+      "name": "product1",
+      "price": "1.00",
+      "producer": 1,
+      "credit_request": 1
+    }
+  },
+  {
+    "model": "credit_app.product",
+    "pk": 2,
+    "fields": {
+      "created_at": "2023-06-01T20:58:53.444Z",
+      "name": "product2",
+      "price": "2.00",
+      "producer": 1,
+      "credit_request": 1
+    }
+  },
+  {
+    "model": "credit_app.product",
+    "pk": 3,
+    "fields": {
+      "created_at": "2023-06-01T20:58:53.452Z",
+      "name": "product3",
+      "price": "3.00",
+      "producer": 1,
+      "credit_request": 2
+    }
+  },
+  {
+    "model": "credit_app.product",
+    "pk": 4,
+    "fields": {
+      "created_at": "2023-06-01T20:58:53.458Z",
+      "name": "product4",
+      "price": "4.00",
+      "producer": 1,
+      "credit_request": 2
+    }
+  },
+  {
+    "model": "credit_app.product",
+    "pk": 5,
+    "fields": {
+      "created_at": "2023-06-01T20:58:53.464Z",
+      "name": "product5",
+      "price": "5.00",
+      "producer": 2,
+      "credit_request": 1
+    }
+  },
+  {
+    "model": "credit_app.product",
+    "pk": 6,
+    "fields": {
+      "created_at": "2023-06-01T20:58:53.471Z",
+      "name": "product6",
+      "price": "6.00",
+      "producer": 2,
+      "credit_request": 1
+    }
+  },
+  {
+    "model": "credit_app.product",
+    "pk": 7,
+    "fields": {
+      "created_at": "2023-06-01T20:58:53.477Z",
+      "name": "product7",
+      "price": "7.00",
+      "producer": 2,
+      "credit_request": 1
+    }
+  },
+  {
+    "model": "credit_app.product",
+    "pk": 8,
+    "fields": {
+      "created_at": "2023-06-01T20:58:53.483Z",
+      "name": "product8",
+      "price": "8.00",
+      "producer": 2,
+      "credit_request": 1
+    }
+  },
+  {
+    "model": "credit_app.product",
+    "pk": 9,
+    "fields": {
+      "created_at": "2023-06-01T20:58:53.489Z",
+      "name": "product9",
+      "price": "9.00",
+      "producer": 3,
+      "credit_request": 2
+    }
+  },
+  {
+    "model": "credit_app.product",
+    "pk": 10,
+    "fields": {
+      "created_at": "2023-06-01T20:58:53.495Z",
+      "name": "product10",
+      "price": "10.00",
+      "producer": 3,
+      "credit_request": 2
+    }
+  },
+  {
+    "model": "credit_app.product",
+    "pk": 11,
+    "fields": {
+      "created_at": "2023-06-01T20:58:53.502Z",
+      "name": "product11",
+      "price": "11.00",
+      "producer": 3,
+      "credit_request": 2
+    }
+  },
+  {
+    "model": "credit_app.product",
+    "pk": 12,
+    "fields": {
+      "created_at": "2023-06-01T20:58:53.508Z",
+      "name": "product12",
+      "price": "12.00",
+      "producer": 3,
+      "credit_request": 2
+    }
+  },
+  {
+    "model": "credit_app.product",
+    "pk": 13,
+    "fields": {
+      "created_at": "2023-06-01T20:58:53.514Z",
+      "name": "product13",
+      "price": "13.00",
+      "producer": 4,
+      "credit_request": 1
+    }
+  },
+  {
+    "model": "credit_app.product",
+    "pk": 14,
+    "fields": {
+      "created_at": "2023-06-01T20:58:53.520Z",
+      "name": "product14",
+      "price": "14.00",
+      "producer": 4,
+      "credit_request": 1
+    }
+  },
+  {
+    "model": "credit_app.product",
+    "pk": 15,
+    "fields": {
+      "created_at": "2023-06-01T20:58:53.526Z",
+      "name": "product15",
+      "price": "15.00",
+      "producer": 4,
+      "credit_request": 2
+    }
+  },
+  {
+    "model": "credit_app.product",
+    "pk": 16,
+    "fields": {
+      "created_at": "2023-06-01T20:58:53.533Z",
+      "name": "product16",
+      "price": "16.00",
+      "producer": 4,
+      "credit_request": 2
+    }
+  },
+  {
+    "model": "credit_app.producer",
+    "pk": 1,
+    "fields": {
+      "created_at": "2023-06-01T20:52:07.584Z",
+      "name": "producer1"
+    }
+  },
+  {
+    "model": "credit_app.producer",
+    "pk": 2,
+    "fields": {
+      "created_at": "2023-06-01T20:52:07.593Z",
+      "name": "producer2"
+    }
+  },
+  {
+    "model": "credit_app.producer",
+    "pk": 3,
+    "fields": {
+      "created_at": "2023-06-01T20:52:07.598Z",
+      "name": "producer3"
+    }
+  },
+  {
+    "model": "credit_app.producer",
+    "pk": 4,
+    "fields": {
+      "created_at": "2023-06-01T20:52:07.602Z",
+      "name": "producer4"
+    }
+  }
+]
