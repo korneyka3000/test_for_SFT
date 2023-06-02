@@ -1,4 +1,4 @@
-from credit_app.models import CreditRequest
+from .models import CreditRequest
 
 
 def get_producers_by_contract(contract_id: dict[str, int]):
