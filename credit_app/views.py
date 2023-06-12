@@ -19,4 +19,3 @@ def index(request):
             else:
                 context.update({"error": "No such contract"})
     return render(request, 'index.html', context)
-
