@@ -2,6 +2,7 @@ from .models import CreditRequest
 
 
 def get_producers_by_contract(contract_id: dict[str, int]):
+
     producers = (
         CreditRequest.objects
         .filter(contract_id=contract_id['id'])
